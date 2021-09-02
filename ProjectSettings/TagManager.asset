@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ghost
   layers:
   - Default
   - TransparentFX
@@ -11,8 +12,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Ground
+  - Player
   - 
   - 
   - 
@@ -40,4 +41,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3715117943
+    locked: 0
+  - name: Shadows
+    uniqueID: 3887828931
+    locked: 0
+  - name: Ghost
+    uniqueID: 1945011017
+    locked: 0
+  - name: Foreground
+    uniqueID: 291435101
+    locked: 0
+  - name: Effects
+    uniqueID: 3602533055
     locked: 0
